@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<button id="b1" class="btn">Teach JS</button>
+	
+	<script type="text/javascript">
+	
+	var tnr={
+			tnrName:'Nag',
+			doTeach:function(){
+				console.log(this.tnrName+" Teaching JS");
+			}
+	};
+	
+	document.getElementById('b1')
+	.addEventListener('click',tnr.doTeach.bind(tnr),false);
+	
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,106 @@
+
+
+  what JS can do on HTML page in browser ?
+  
+  --> can create,Retreive,Uodate,Delete HTML elements dynamically
+  --> can can change HTML element's styles
+  --> can change element's attributes
+  --> can change element's text content
+  --> can communicate with server asych, update resultes on existing page ( AJAX )
+  --> can bring all HTML5 API functionality ( e.g Websockets , Audio , ideo , canvas , Loal storage , etc... )
+  --> can create RICH UI components ( Layout , Forn controls , Menus , Tootips )
+  
+  --> can validate form before we before submit
+  
+  etc...........
+  
+  ------------------------------------------------------------------
+  
+  JS   using WEB APIs can change/bring any functionality to web-page
+  
+  JS using DOM API can modify any content on page
+  
+  --------------------------------------------------------------------
+  
+ 
+  
+  HTML , CSS , JS
+  
+  
+  
+  Limitations/Complexity witl Plain JS ( js code written by you )
+  
+  --> browser compatibility
+  --> too much code even for simple oprns.
+  --> memory management and performance
+  --> code organization is difficult
+  
+  ----------------------------------------------------------------
+  
+  Solns:
+  
+       JS libraries / F.Ws
+       
+       
+       Libraries
+       
+         --> jQuery : write-less and do-more
+         
+         
+       F.Ws  ( MVC , MVVM )
+       
+          Backbone JS
+          Angular
+          Ember
+          KO
+          
+          DOJO
+          EXT-JS
+          
+          YUI
+  
+  
+    -----------------------------------------------------------------
+  
+  
+ /*
+ * $(selector)
+ * $(selector,context)
+ * $(domEle) 
+ * $('html-markup string')
+ * $('html-string',{})
+ * $(callback)
+ * $.noConflict();
+ * $.holdReady();
+ * 
+ */
+ 
+ 
+ 
+ //-----------------------------------
+ 
+ // jq syntax
+ 
+ $(selector).action();
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
